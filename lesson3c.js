@@ -1,0 +1,14 @@
+// map loop
+const numbers=[1,2,3,4,5]
+
+const double=numbers.map(num=> num*2)
+
+console .log(double)
+
+
+
+const names=["James","Alice","Joan,Joy"]
+
+const greeting=names.map(name=>"hello,"+name)
+
+console .log(greeting)
