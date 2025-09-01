@@ -20,3 +20,11 @@ function sum(a,b,c){
 };
 sum(22,44,88);
 sum(50,70,60);
+
+function product(x,y,z){
+    let total=x *y *z/100 
+    console.log("The total values is",total)
+};
+product(20000,7,9);
+product(40000,7.8,12);
+product(17000,12,8);
